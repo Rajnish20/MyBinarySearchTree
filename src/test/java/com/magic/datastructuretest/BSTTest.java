@@ -36,6 +36,46 @@ public class BSTTest {
         Assertions.assertEquals(13, size);
     }
 
+    @Test
+    public void givenAKey_WhenPresentInBST_ShouldReturnTrue() {
+        MyBST<Integer> myBST = new MyBST<>();
+        myBST.addNodes(56);
+        myBST.addNodes(30);
+        myBST.addNodes(70);
+        myBST.addNodes(40);
+        myBST.addNodes(22);
+        myBST.addNodes(11);
+        myBST.addNodes(3);
+        myBST.addNodes(16);
+        myBST.addNodes(60);
+        myBST.addNodes(65);
+        myBST.addNodes(95);
+        myBST.addNodes(63);
+        myBST.addNodes(67);
+        boolean result = myBST.searchKey(63);
+        Assertions.assertTrue(result);
+    }
+
+    @Test
+    public void givenAKey_WhenNotPresentInBST_ShouldReturnFalse() {
+        MyBST<Integer> myBST = new MyBST<>();
+        myBST.addNodes(56);
+        myBST.addNodes(30);
+        myBST.addNodes(70);
+        myBST.addNodes(40);
+        myBST.addNodes(22);
+        myBST.addNodes(11);
+        myBST.addNodes(3);
+        myBST.addNodes(16);
+        myBST.addNodes(60);
+        myBST.addNodes(65);
+        myBST.addNodes(95);
+        myBST.addNodes(63);
+        myBST.addNodes(67);
+        boolean result = myBST.searchKey(100);
+        Assertions.assertFalse(result);
+    }
+
 
 
 }

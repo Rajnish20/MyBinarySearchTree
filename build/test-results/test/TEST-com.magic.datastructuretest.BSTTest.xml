@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.magic.datastructuretest.BSTTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-06T10:13:43" hostname="DESKTOP-38KI29F" time="0.026">
+<testsuite name="com.magic.datastructuretest.BSTTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-06T10:18:11" hostname="DESKTOP-38KI29F" time="0.025">
   <properties/>
-  <testcase name="given13Numbers_WhenAddedToBST_ShouldReturnSizeThirteen()" classname="com.magic.datastructuretest.BSTTest" time="0.026"/>
+  <testcase name="givenAKey_WhenNotPresentInBST_ShouldReturnFalse()" classname="com.magic.datastructuretest.BSTTest" time="0.025"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

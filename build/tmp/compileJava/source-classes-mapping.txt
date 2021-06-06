@@ -1,4 +1,4 @@
-com/magic/datastructures/MyBST.java
- com.magic.datastructures.MyBST
 com/magic/datastructures/MyBSTNode.java
  com.magic.datastructures.MyBSTNode
+com/magic/datastructures/MyBST.java
+ com.magic.datastructures.MyBST
