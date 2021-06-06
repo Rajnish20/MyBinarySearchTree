@@ -10,4 +10,6 @@ public class MyBSTNode<K extends Comparable<K>> {
         this.left = null;
         this.right = null;
     }
+
+
 }
