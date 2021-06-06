@@ -1,0 +1,2 @@
+com/magic/datastructuretest/BSTTest.java
+ com.magic.datastructuretest.BSTTest
